@@ -285,12 +285,7 @@ h1{
         height: 45px;
     }
 
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
+    h1,h2,h3,h4,h5,h6 {
         padding: 8px;
     }
 
@@ -300,6 +295,21 @@ h1{
 
     button {
         top: 80%;
+    }
+    .tarjetas {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tarjeta {
+        width: 100%;
+        margin: 20px 0;
+    }
+    
+    .tarjetitas {
+        width: 100%;
+        margin: 20px 0;
+        text-align: center;
     }
 }
 
@@ -314,12 +324,7 @@ h1{
         height: 35px;
     }
 
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
+    h1,h2,h3,h4,h5,h6 {
         padding: 5px;
         font-size: 1.2rem;
     }
@@ -330,5 +335,43 @@ h1{
 
     button {
         top: 75%;
+    }
+    .tarjetas {
+        padding: 10px; 
+    }
+
+    .tarjeta {
+        width: 100%;
+        margin: 10px 0;
+    }
+    
+    .tarjetitas {
+        width: 100%;
+        margin: 10px 0;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 768px) {
+    .carousel-item p {
+        font-size: 1rem; 
+        padding: 5px 10px;
+    }
+
+    .carousel-item button {
+        padding: 8px 16px; 
+        font-size: 0.8rem; 
+    }
+}
+
+/* Reglas de media queries para dispositivos móviles */
+@media screen and (max-width: 480px) {
+    .carousel-item p {
+        font-size: 0.9rem; 
+        padding: 5px 8px; 
+    }
+
+    .carousel-item button {
+        padding: 6px 12px; 
+        font-size: 0.7rem;
     }
 }
