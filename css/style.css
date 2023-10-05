@@ -169,7 +169,7 @@ h1{
     bottom: 2rem;
     right: 2rem;
     padding: 1rem;
-    gap: 1rem;
+    gap: .5rem;
     border-radius: 1rem;
 }
 .item-social {
