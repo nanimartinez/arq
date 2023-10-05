@@ -75,13 +75,13 @@ h1,h2,h3,h4,h5,h6{
     background-color: rgba(19, 14, 9, 0.582);
     z-index: 1000;
 }
-button{
+.portada button{
     position: absolute;
     top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-button a{
+.portada button a{
     text-decoration: none;
     color: #2c2c2c;
 }
@@ -123,12 +123,7 @@ h1{
 }
 /*contacto*/
 .texto-titulo{
-  
-   /* display: flex;
-    flex-direction: column;
-    align-items: center;*/
     justify-content: center;
-
 }   
 .cuerpo-formulario{
     display: flex;
@@ -161,7 +156,7 @@ h1{
 }
 .cotizar{
     position: absolute;
-    top: 100%;
+    top: 95%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -178,7 +173,7 @@ h1{
     border-radius: 1rem;
 }
 .item-social {
-    font-size: 2rem;
+    font-size: 1rem;
     color: #EAEAD7;
     transition: .5s;
 }
@@ -264,6 +259,15 @@ h1{
     padding: 10px 20px;
     border-radius: 5px; /* Bordes redondeados */
     cursor: pointer;
+}
+.contacto button {
+    /*display: flex;
+    flex-direction: column;*/
+    position: relative;
+    justify-content: end;
+    /*top: 90%;
+    left: 30%;
+    transform: translate(-50%, -50%);*/
 }
 .contacto button a {
     color: #2c2c2c; /* Texto oscuro */
