@@ -1,0 +1,43 @@
+.encabezado{
+    display: flex;
+    position: fixed sticky;
+    justify-content: space-between;
+    align-items: end;
+    background-color: #2c2c2c;
+    padding: 5px;
+    gap: 2rem;
+    .logo{
+        display: inline-flex;
+        position: sticky;
+        justify-content: end;
+        align-items: end;
+        &p{
+            color: #e6e6e6;
+            font-weight: 700;  
+        }
+        &img{
+            width: 40px;
+            height: 60px;
+        }
+    }
+    .menu{
+        list-style-type: none;
+        position: sticky;
+        top: 0;
+        font-family: "orbitron", "sans-serif";
+    
+        &li{
+            display: inline;
+            margin-right: 20px;
+        }
+        &a{
+            color: #e6e6e6;
+            text-decoration: none;
+        
+           &:hover {
+                text-decoration: underline double #e6e6e6;
+            }
+        }
+    }
+
+}
