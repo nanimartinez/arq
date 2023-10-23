@@ -11,11 +11,11 @@
         position: sticky;
         justify-content: end;
         align-items: end;
-        &p{
+        p{
             color: $texto-header;
             font-weight: 700;  
         }
-        &img{
+        img{
             width: 40px;
             height: 60px;
         }
@@ -26,11 +26,11 @@
         top: 0;
         font-family: "orbitron", "sans-serif";
     
-        &li{
+        li{
             display: inline;
             margin-right: 20px;
         }
-        &a{
+        a{
             color: $blanco;
             text-decoration: none;
         

@@ -34,11 +34,11 @@ body {
   justify-content: end;
   align-items: end;
 }
-.encabezado .logop {
+.encabezado .logo p {
   color: #FFFFFF;
   font-weight: 700;
 }
-.encabezado .logoimg {
+.encabezado .logo img {
   width: 40px;
   height: 60px;
 }
@@ -48,15 +48,15 @@ body {
   top: 0;
   font-family: "orbitron", "sans-serif";
 }
-.encabezado .menuli {
+.encabezado .menu li {
   display: inline;
   margin-right: 20px;
 }
-.encabezado .menua {
+.encabezado .menu a {
   color: #FFFFFF;
   text-decoration: none;
 }
-.encabezado .menua:hover {
+.encabezado .menu a:hover {
   -webkit-text-decoration: underline double #FFFFFF;
           text-decoration: underline double #FFFFFF;
 }
