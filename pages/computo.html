@@ -13,7 +13,7 @@
     <header>
         <nav class="encabezado">
             <div class="logo">
-                <img src="../img/logo-min-removebg-preview.png" alt="logo">
+              <a href="./index.html"> <img src="./img/logo-min-removebg-preview.png" alt="logo"> </a>
                 <p>ARQUITECTURA + INGENIERIA</p>
             </div>
             <ul class="menu">
@@ -30,50 +30,57 @@
     <main>
         <h1>COMPUTO</h1>
         <!-- carrucel de imagenes  arreglar en css tamaño de imagenes-->
-        <div class="container text-center">
-            <div class="row align-items-center">
-              <div class="col">
-                <div id="carouselExample" class="carousel slide">
-                    <div class="carousel-inner">
-                      <div class="carousel-item active padre_boton">
-                        <img src="../img/computo.jpg" class="d-block w-100" alt="computo">
-                        <p>Computo estructural</p>
-                        <a class="boton" href="./pages/contacto.html">Contactanos</a>
-                      </div>
-                      <div class="carousel-item padre_boton">
-                        <img src="../img/presupuesto1-min.jpg" class="d-block w-100" alt="presupuesto">
-                        <p>Presupuesto</p>
-                        <a class="boton" href="./pages/contacto.html">Contactanos</a></button>
-                      </div>
-                      <div class="carousel-item padre_boton">
-                        <img src="../img/calculo-estructura-min.jpg" class="d-block w-100" alt="calculo estructural">
-                        <p>Cálculo Estructural</p>
-                        <a class="boton" href="./pages/contacto.html">Contactanos</a></button>
-                      </div>
-                      <div class="carousel-item padre_boton">
-                        <img src="../img/direccion-obra-min.jpg" class="d-block w-100" alt="direccion de obra">
-                        <p>Dirección de Obra</p>
-                        <a class="boton" href="./pages/contacto.html">Contactanos</a></button>
-                      </div>
-                      <div class="carousel-item padre_boton">
-                        <img src="../img/llave-min.jpg" class="d-block w-100" alt="Asistencia Tecnica">
-                        <p>Asistencia Técnica</p>
-                        <a class="boton" href="./pages/contacto.html">Contactanos</a></button>
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+      
+          <div class="carousel-inner">
+              <div class="carousel-item active" style="width: 95%;">
+                  <img src="../img/presupuesto1-min.jpg" class="d-block w-100" alt="Presupuesto">
+                  <div class="carousel-caption d-none d-md-block padre_boton">
+                      <h5>Presupuesto</h5>
+                      <p>Te indicamos qué y cuál material comprar, hacemos los cálculos por vos sin necesidad de que te mates pensando. Te ofrecemos un plan de trabajo y estructura acorde a tus posibilidades.</p>
+                      <a class="boton" href="./pages/contacto.html">Contactanos</a>
                   </div>
               </div>
-            </div>
+              <div class="carousel-item" style="width: 95%;">
+                  <img src="../img/calculo-estructura-min.jpg" class="d-block w-100" alt="Cálculo Estructural">
+                  <div class="carousel-caption d-none d-md-block padre_boton">
+                      <h5>Cálculo Estructural</h5>
+                      <p>Tenés un terreno y querés comenzar a hacer realidad tu sueño... Nosotros lo transformamos en planos y te ofrecemos el diseño y estilo que más esté acorde a tus necesidades.</p>
+                      <a class="boton" href="./pages/contacto.html">Contactanos</a>
+                  </div>
+              </div>
+              <div class="carousel-item" style="width: 95%;">
+                  <img src="../img/direccion-obra-min.jpg" class="d-block w-100" alt="Dirección de Obra">
+                  <div class="carousel-caption d-none d-md-block padre_boton">
+                      <h5>Dirección de Obra</h5>
+                      <p>Estamos para dirigir obras y ofrecerte un plan de trabajo y pagos. Haremos rendir tu dinero y ofrecerte soluciones a cada paso.</p>
+                      <a class="boton" href="./pages/contacto.html">Contactanos</a>
+                  </div>
+              </div>
+              <div class="carousel-item" style="width: 95%;">
+                  <img src="../img/llave-min.jpg" class="d-block w-100" alt="Llave de tu vivienda">
+                  <div class="carousel-caption d-none d-md-block padre_boton">
+                      <h5>Asistencia Técnica</h5>
+                      <p>Te ofrecemos todo el asesoramiento para que seas adjudicatario de tu próximo hogar. Contamos con la experiencia y capacidad para ayudarte con tu préstamo de PROCREAR o IPV y la logística necesaria para poner en funcionamiento tu próxima obra.</p>
+                      <a class="boton" href="./pages/contacto.html">Contactanos</a>
+                  </div>
+              </div>
           </div>
-       
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
     </main>
 <!-- pie de página -->
     <footer>
