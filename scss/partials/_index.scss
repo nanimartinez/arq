@@ -1,0 +1,18 @@
+.portada{
+    background-image: url(../img/fachada-min.jpg);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    h1{
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-size: 2rem;
+        padding: .25rem;
+        color: $blanco;
+        background-color: rgba(19, 14, 9, 0.582);
+        z-index: 1000;
+    }
+}

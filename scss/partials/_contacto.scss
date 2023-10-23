@@ -1,0 +1,33 @@
+   
+.cuerpo-formulario{
+    display: flex;
+    justify-content: center;
+    min-width: 200px;
+    min-height: 400px;
+    margin: 0;
+    padding: 10px;
+    background-image: url(../img/decococi2-min.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    z-index: -1;
+    .texto-titulo{
+        justify-content: center;
+    }
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        label{
+            background-color: #7570588a;
+            color: #EAEAD7;
+            font-size: 1.5rem;
+            margin: 5px;
+            padding: 5px;
+            text-align: center;
+            z-index: 100;
+        }
+    }
+}

@@ -4,4 +4,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Orbitron", sans-serif;
+    ::selection{
+        background-color: $blanco;
+        color: $azul-marino;
+    }
+}
+
+body{
+    background-color: $fondo-body;
 }

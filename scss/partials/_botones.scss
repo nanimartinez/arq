@@ -1,0 +1,23 @@
+.padre_boton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+
+    .boton{
+        padding: 10px 20px;
+        background-color: $fondo-boton; 
+        color: $texto-boton; 
+        border-radius: 10px;
+        text-decoration: none;
+        text-align: center;
+        margin-top: 10px;
+        transition: background-color 0.3s ease;
+        font-family: 'Open Sans', sans-serif; /*agregar fuente en reset*/
+            &:hover{
+                background-color: $fondo-boton-hover; 
+                transform: scale(1.05);
+            }
+    }
+}
+
