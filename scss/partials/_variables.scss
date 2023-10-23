@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&family=Urbanist:wght@400;600;700;900&display=swap');
+
 // Paleta de colores
 $gris-oscuro: #333333;
 $blanco: #FFFFFF;
@@ -26,3 +28,7 @@ $sombra-card: 0 4px 8px rgba(0, 0, 0, 0.1);
 // Pie de Página
 $fondo-pie-pagina: $gris-oscuro;
 $texto-pie-pagina: $blanco;
+
+// Selección de texto
+$resaltado-texto: $blanco;
+$texto-seleccionado: $azul-marino;
