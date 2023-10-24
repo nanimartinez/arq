@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&family=Urbanist:wght@400;600;700;900&display=swap");
 * {
   margin: 0;
@@ -18,46 +19,8 @@ body {
   background-color: #FFFFFF;
 }
 
-.encabezado {
-  display: flex;
-  position: fixed sticky;
-  justify-content: space-between;
-  align-items: end;
-  background-color: #333333;
-  padding: 5px;
-  gap: 2rem;
-}
-.encabezado .logo {
-  display: inline-flex;
-  position: sticky;
-  justify-content: end;
-  align-items: end;
-}
-.encabezado .logo p {
-  color: #FFFFFF;
-  font-weight: 700;
-}
-.encabezado .logo img {
-  width: 40px;
-  height: 60px;
-}
-.encabezado .menu {
-  list-style-type: none;
-  position: sticky;
-  top: 0;
-  font-family: "orbitron", "sans-serif";
-}
-.encabezado .menu li {
-  display: inline;
-  margin-right: 20px;
-}
-.encabezado .menu a {
-  color: #FFFFFF;
-  text-decoration: none;
-}
-.encabezado .menu a:hover {
-  -webkit-text-decoration: underline double #FFFFFF;
-          text-decoration: underline double #FFFFFF;
+.navbar .container-fluid .navbar-brand .logo-img {
+  width: 150px;
 }
 
 .pie {
@@ -85,6 +48,17 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
+  /* Responsive para tablet */
+}
+@media (max-width: 768px) {
+  .padre_boton .padre_boton {
+    align-items: flex-start;
+  }
+}
+@media (max-width: 480px) {
+  .padre_boton .padre_boton {
+    align-items: center;
+  }
 }
 .padre_boton .boton {
   padding: 10px 20px;
@@ -101,10 +75,15 @@ body {
   background-color: #333333;
   transform: scale(1.05);
 }
+@media (max-width: 480px) {
+  .padre_boton .boton .boton {
+    width: 100%; /* Opcional: ocupar todo el ancho en dispositivos móviles */
+  }
+}
 
 .portada {
   background-image: url(../img/fachada-min.jpg);
-  height: 90vh;
+  height: 80vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -221,6 +200,17 @@ body {
   text-align: center;
   z-index: 100;
 }
+@media (max-width: 768px) {
+  .cuerpo-formulario .cuerpo-formulario {
+    align-items: center;
+  }
+}
+@media (max-width: 480px) {
+  .cuerpo-formulario .cuerpo-formulario {
+    align-items: center;
+    padding: 5px; /* Puedes ajustar el padding según tus necesidades */
+  }
+}
 
 .carousel {
   width: 100%;
@@ -229,9 +219,10 @@ body {
   padding: 10px;
 }
 .carousel .carousel-inner .carousel-item img {
-  height: 80vh;
-  width: 60vh;
-  justify-content: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 90%;
 }
 .carousel .carousel-inner .carousel-item p {
   background-color: rgba(51, 51, 51, 0.5254901961);

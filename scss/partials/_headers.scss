@@ -1,43 +1,10 @@
-.encabezado{
-    display: flex;
-    position: fixed sticky;
-    justify-content: space-between;
-    align-items: end;
-    background-color: $fondo-header;
-    padding: 5px;
-    gap: 2rem;
-    .logo{
-        display: inline-flex;
-        position: sticky;
-        justify-content: end;
-        align-items: end;
-        p{
-            color: $texto-header;
-            font-weight: 700;  
-        }
-        img{
-            width: 40px;
-            height: 60px;
-        }
-    }
-    .menu{
-        list-style-type: none;
-        position: sticky;
-        top: 0;
-        font-family: "orbitron", "sans-serif";
+.navbar{
     
-        li{
-            display: inline;
-            margin-right: 20px;
-        }
-        a{
-            color: $blanco;
-            text-decoration: none;
-        
-           &:hover {
-                text-decoration: underline double $blanco;
-            }
+    .container-fluid{
+
+        .navbar-brand .logo-img{
+            width: 150px;
         }
     }
-
 }
+
