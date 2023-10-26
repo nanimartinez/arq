@@ -27,6 +27,40 @@
                 font-style: italic;
             }
         }
+
+        @media (max-width: 768px) {
+            /* Estilos para tablet */
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas: 
+            "nos nos" 
+            "img img";
+    
+            .nos {
+                padding: 15px;
+                p {
+                    font-size: 1rem;
+                }
+            }
+    
+            .img {
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    
+        @media (max-width: 480px) {
+            /* Estilos para móvil */
+            grid-template-columns: 1fr;
+    
+            .nos {
+                padding: 10px;
+                p {
+                    font-size: 0.9rem;
+                }
+            }
+        }
     }
     .img{
         background-color: #EAEAD7;

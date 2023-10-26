@@ -30,5 +30,19 @@
             color: $texto-card;
             font-size: 1rem;
             }
+
+            @media (max-width: 768px) {
+                /* Estilos para tablet */
+                .tarjetitas {
+                    width: calc(50% - 20px);
+                }
+            }
+        
+            @media (max-width: 480px) {
+                /* Estilos para móvil */
+                .tarjetitas {
+                    width: calc(100% - 20px);
+                }
+            }
         }
     }

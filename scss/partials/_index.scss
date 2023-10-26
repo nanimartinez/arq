@@ -14,5 +14,20 @@
         color: $blanco;
         background-color: rgba(19, 14, 9, 0.582);
         z-index: 1000;
+
+        @media (max-width: 768px) {
+            /* Estilos para tablet y móvil */
+            h1 {
+                font-size: 1.5rem;
+            }
+        }
+    
+        @media (max-width: 480px) {
+            /* Estilos adicionales para móvil */
+            h1 {
+                font-size: 1.2rem;
+            }
+        }
     }
+
 }
