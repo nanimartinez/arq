@@ -124,6 +124,9 @@ body {
 .grid .nos p em {
   font-style: italic;
 }
+.grid .nos p .enfasis {
+  font-style: italic;
+}
 .grid .img {
   background-color: #EAEAD7;
   grid-area: img;
