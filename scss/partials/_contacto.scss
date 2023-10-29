@@ -31,14 +31,14 @@
         }
     }
     @media (max-width: 768px) {
-        .cuerpo-formulario {
+
             align-items: center;
-        }
+      
     }
     @media (max-width: 480px) {
-        .cuerpo-formulario {
+   
             align-items: center;
             padding: 5px; /* Puedes ajustar el padding según tus necesidades */
-        }
+  
     }
 }

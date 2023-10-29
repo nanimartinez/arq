@@ -5,14 +5,14 @@
     justify-content: flex-end;
     /* Responsive para tablet */
     @media (max-width: 768px) {
-    .padre_boton {
+  
         align-items: flex-start;
-        }
+       
     }
     @media (max-width: 480px) {
-        .padre_boton {
+  
             align-items: center;
-        }
+       
     }
 
 
@@ -31,9 +31,9 @@
                 transform: scale(1.05);
             }
             @media (max-width: 480px) {
-                .boton {
+          
                     width: 100%; /* Opcional: ocupar todo el ancho en dispositivos móviles */
-                }
+         
             }
     }
 }

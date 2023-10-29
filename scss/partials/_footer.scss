@@ -21,20 +21,16 @@
             /* Estilos para tablet */
             bottom: 1rem;
             right: 1rem;
-    
-            .item-social {
-                font-size: 1.5rem;
-            }
+            font-size: 1.5rem;
+          
         }
     
         @media (max-width: 480px) {
             /* Estilos adicionales para móvil */
             bottom: 0.5rem;
             right: 0.5rem;
-    
-            .item-social {
-                font-size: 1.2rem;
-            }
+            font-size: 1.2rem;
+           
         }
     }   
 }

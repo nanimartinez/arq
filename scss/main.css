@@ -47,8 +47,6 @@ body {
     /* Estilos para tablet */
     bottom: 1rem;
     right: 1rem;
-  }
-  .pie .item-social .item-social {
     font-size: 1.5rem;
   }
 }
@@ -57,8 +55,6 @@ body {
     /* Estilos adicionales para móvil */
     bottom: 0.5rem;
     right: 0.5rem;
-  }
-  .pie .item-social .item-social {
     font-size: 1.2rem;
   }
 }
@@ -71,12 +67,12 @@ body {
   /* Responsive para tablet */
 }
 @media (max-width: 768px) {
-  .padre_boton .padre_boton {
+  .padre_boton {
     align-items: flex-start;
   }
 }
 @media (max-width: 480px) {
-  .padre_boton .padre_boton {
+  .padre_boton {
     align-items: center;
   }
 }
@@ -96,7 +92,7 @@ body {
   transform: scale(1.05);
 }
 @media (max-width: 480px) {
-  .padre_boton .boton .boton {
+  .padre_boton .boton {
     width: 100%; /* Opcional: ocupar todo el ancho en dispositivos móviles */
   }
 }
@@ -122,16 +118,12 @@ body {
 @media (max-width: 768px) {
   .portada h1 {
     /* Estilos para tablet y móvil */
-  }
-  .portada h1 h1 {
     font-size: 1.5rem;
   }
 }
 @media (max-width: 480px) {
   .portada h1 {
     /* Estilos adicionales para móvil */
-  }
-  .portada h1 h1 {
     font-size: 1.2rem;
   }
 }
@@ -144,6 +136,19 @@ body {
   grid-template-areas: "nos nos img img" "nos nos img img";
   gap: 0.5rem;
 }
+@media (max-width: 768px) {
+  .grid {
+    /* Estilos para tablet */
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "nos nos" "img img";
+  }
+}
+@media (max-width: 480px) {
+  .grid {
+    /* estilo para celular*/
+    grid-template-columns: 1fr;
+  }
+}
 .grid .nos {
   background-color: #FFFFFF;
   text-align: justify;
@@ -151,46 +156,22 @@ body {
   grid-area: nos;
   position: relative;
 }
-.grid .nos p {
-  margin-bottom: 15px;
-  line-height: 1.6;
-  text-align: justify;
-  max-width: 800px;
-}
-.grid .nos p em {
-  font-style: italic;
-}
-.grid .nos p .enfasis {
-  font-style: italic;
-}
 @media (max-width: 768px) {
   .grid .nos {
-    /* Estilos para tablet */
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "nos nos" "img img";
-  }
-  .grid .nos .nos {
     padding: 15px;
-  }
-  .grid .nos .nos p {
-    font-size: 1rem;
-  }
-  .grid .nos .img img {
-    width: 100%;
-    height: auto;
   }
 }
 @media (max-width: 480px) {
   .grid .nos {
     /* Estilos para móvil */
-    grid-template-columns: 1fr;
-  }
-  .grid .nos .nos {
     padding: 10px;
   }
-  .grid .nos .nos p {
-    font-size: 0.9rem;
-  }
+}
+.grid .nos em {
+  font-style: italic;
+}
+.grid .nos .enfasis {
+  font-style: italic;
 }
 .grid .img {
   background-color: #EAEAD7;
@@ -199,6 +180,12 @@ body {
 .grid .img img {
   width: 100%;
   height: 100%;
+}
+@media (max-width: 768px) {
+  .grid .img img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .tarjetas {
@@ -220,6 +207,18 @@ body {
   border-radius: 10px;
   box-sizing: border-box;
 }
+@media (max-width: 768px) {
+  .tarjetas .tarjetitas {
+    /* Estilos para tablet */
+    width: calc(50% - 20px);
+  }
+}
+@media (max-width: 480px) {
+  .tarjetas .tarjetitas {
+    /* Estilos para móvil */
+    width: calc(100% - 20px);
+  }
+}
 .tarjetas .tarjetitas img {
   width: 100%;
   border-radius: 5px;
@@ -234,22 +233,6 @@ body {
   text-align: justify;
   color: #FFFFFF;
   font-size: 1rem;
-}
-@media (max-width: 768px) {
-  .tarjetas .tarjetitas {
-    /* Estilos para tablet */
-  }
-  .tarjetas .tarjetitas .tarjetitas {
-    width: calc(50% - 20px);
-  }
-}
-@media (max-width: 480px) {
-  .tarjetas .tarjetitas {
-    /* Estilos para móvil */
-  }
-  .tarjetas .tarjetitas .tarjetitas {
-    width: calc(100% - 20px);
-  }
 }
 
 .cuerpo-formulario {
@@ -285,12 +268,12 @@ body {
   z-index: 100;
 }
 @media (max-width: 768px) {
-  .cuerpo-formulario .cuerpo-formulario {
+  .cuerpo-formulario {
     align-items: center;
   }
 }
 @media (max-width: 480px) {
-  .cuerpo-formulario .cuerpo-formulario {
+  .cuerpo-formulario {
     align-items: center;
     padding: 5px; /* Puedes ajustar el padding según tus necesidades */
   }

@@ -7,60 +7,36 @@
     "nos nos img img" 
     "nos nos img img";
     gap: .5rem;
-    
+    @media (max-width: 768px) {
+        /* Estilos para tablet */
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "nos nos" 
+        "img img";
+    }
+    @media (max-width: 480px) {
+        /* estilo para celular*/
+        grid-template-columns: 1fr;
+    }  
     .nos {
-    background-color: $blanco;
-    text-align: justify;
-    padding: 30px;
-    grid-area: nos;
-    position: relative;
-
-        p {
-        margin-bottom: 15px;
-        line-height: 1.6;
+        background-color: $blanco;
         text-align: justify;
-        max-width: 800px;
-            em {
-            font-style: italic;
-            }
-            .enfasis{
-                font-style: italic;
-            }
-        }
-
+        padding: 30px;
+        grid-area: nos;
+        position: relative;
         @media (max-width: 768px) {
-            /* Estilos para tablet */
-            grid-template-columns: 1fr 1fr;
-            grid-template-areas: 
-            "nos nos" 
-            "img img";
-    
-            .nos {
-                padding: 15px;
-                p {
-                    font-size: 1rem;
-                }
-            }
-    
-            .img {
-                img {
-                    width: 100%;
-                    height: auto;
-                }
-            }
+            padding: 15px;
         }
-    
         @media (max-width: 480px) {
             /* Estilos para móvil */
-            grid-template-columns: 1fr;
-    
-            .nos {
-                padding: 10px;
-                p {
-                    font-size: 0.9rem;
-                }
-            }
+            padding: 10px;
         }
+        em {
+            font-style: italic;
+        }
+        .enfasis{
+                font-style: italic;
+        }    
     }
     .img{
         background-color: #EAEAD7;
@@ -68,6 +44,10 @@
         img{
             width: 100%;
             height: 100%;
+            @media (max-width: 768px) {
+                width: 100%;
+                height: auto;
+            }
         }
-    }
+    } 
 }
