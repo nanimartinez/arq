@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&family=Roboto:wght@300&family=Urbanist:wght@400;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&family=Urbanist:wght@400;600;700;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -85,7 +86,7 @@ body {
   text-align: center;
   margin-top: 10px;
   transition: background-color 0.3s ease;
-  font-family: "Open Sans", sans-serif; /*agregar fuente en reset*/
+  font-family: "Orbitron", sans-serif;
 }
 .padre_boton .boton:hover {
   background-color: #333333;
@@ -114,6 +115,7 @@ body {
   color: #FFFFFF;
   background-color: rgba(19, 14, 9, 0.582);
   z-index: 1000;
+  font-family: "Orbitron", sans-serif;
 }
 @media (max-width: 768px) {
   .portada h1 {
@@ -151,6 +153,8 @@ body {
 }
 .grid .nos {
   background-color: #FFFFFF;
+  font-family: "Roboto", sans-serif; /* Aplicando la fuente definida para el cuerpo */
+  color: #333333;
   text-align: justify;
   padding: 30px;
   grid-area: nos;
@@ -226,12 +230,14 @@ body {
 .tarjetas .tarjetitas h2 {
   text-align: center;
   color: #FFFFFF;
+  font-family: "Orbitron", sans-serif;
   font-size: 2rem;
   font-weight: 300;
 }
 .tarjetas .tarjetitas p {
   text-align: justify;
   color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
   font-size: 1rem;
 }
 
@@ -251,6 +257,8 @@ body {
 }
 .cuerpo-formulario .texto-titulo {
   justify-content: center;
+  font-family: "Orbitron", sans-serif; /* Aplicando la fuente Orbitron para el título */
+  color: #FFFFFF;
 }
 .cuerpo-formulario .formulario {
   display: flex;
@@ -259,13 +267,14 @@ body {
   justify-content: center;
 }
 .cuerpo-formulario .formulario label {
-  background-color: rgba(117, 112, 88, 0.5411764706);
-  color: #EAEAD7;
+  background-color: #333333;
+  color: #FFFFFF;
   font-size: 1.5rem;
   margin: 5px;
   padding: 5px;
   text-align: center;
   z-index: 100;
+  font-family: "Roboto", sans-serif;
 }
 @media (max-width: 768px) {
   .cuerpo-formulario {
@@ -275,7 +284,7 @@ body {
 @media (max-width: 480px) {
   .cuerpo-formulario {
     align-items: center;
-    padding: 5px; /* Puedes ajustar el padding según tus necesidades */
+    padding: 5px;
   }
 }
 
@@ -292,12 +301,16 @@ body {
   height: 90%;
 }
 .carousel .carousel-inner .carousel-item p {
-  background-color: rgba(51, 51, 51, 0.5254901961);
+  background-color: #333333;
   font-size: 1rem;
   font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color: #FFFFFF;
 }
 .carousel .carousel-inner .carousel-item h5 {
-  background-color: rgba(51, 51, 51, 0.5254901961);
+  background-color: #333333;
   font-size: 2rem;
   font-weight: 700;
+  font-family: "Orbitron", sans-serif; /* ítulos de las tarjetas de carrusel */
+  color: #FFFFFF;
 }/*# sourceMappingURL=main.css.map */

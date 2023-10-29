@@ -1,5 +1,5 @@
    
-.cuerpo-formulario{
+.cuerpo-formulario {
     display: flex;
     justify-content: center;
     min-width: 200px;
@@ -12,33 +12,37 @@
     background-position: center center;
     background-attachment: fixed;
     z-index: -1;
-    .texto-titulo{
+
+    .texto-titulo {
         justify-content: center;
+        font-family: 'Orbitron', sans-serif; /* Aplicando la fuente Orbitron para el título */
+        color: $blanco;
     }
-    .formulario{
+
+    .formulario {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        label{
-            background-color: #7570588a;
-            color: #EAEAD7;
+
+        label {
+            background-color: $gris-oscuro;
+            color: $blanco;
             font-size: 1.5rem;
             margin: 5px;
             padding: 5px;
             text-align: center;
             z-index: 100;
+            font-family: $fuente-cuerpo; 
         }
     }
-    @media (max-width: 768px) {
 
-            align-items: center;
-      
+    @media (max-width: 768px) {
+        align-items: center;
     }
+
     @media (max-width: 480px) {
-   
-            align-items: center;
-            padding: 5px; /* Puedes ajustar el padding según tus necesidades */
-  
+        align-items: center;
+        padding: 5px; 
     }
 }

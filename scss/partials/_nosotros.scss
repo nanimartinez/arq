@@ -20,6 +20,8 @@
     }  
     .nos {
         background-color: $blanco;
+        font-family: $fuente-cuerpo; /* Aplicando la fuente definida para el cuerpo */
+        color: $gris-oscuro;
         text-align: justify;
         padding: 30px;
         grid-area: nos;

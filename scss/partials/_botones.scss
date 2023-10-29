@@ -25,7 +25,7 @@
         text-align: center;
         margin-top: 10px;
         transition: background-color 0.3s ease;
-        font-family: 'Open Sans', sans-serif; /*agregar fuente en reset*/
+        font-family: $fuente-boton;
             &:hover{
                 background-color: $fondo-boton-hover; 
                 transform: scale(1.05);

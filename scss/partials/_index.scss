@@ -1,9 +1,10 @@
-.portada{
+.portada {
     background-image: url(../img/fachada-min.jpg);
     height: 80vh;
     background-repeat: no-repeat;
     background-size: cover;
-    h1{
+
+    h1 {
         position: absolute;
         top: 70%;
         left: 50%;
@@ -14,20 +15,16 @@
         color: $blanco;
         background-color: rgba(19, 14, 9, 0.582);
         z-index: 1000;
+        font-family: 'Orbitron', sans-serif; 
 
         @media (max-width: 768px) {
             /* Estilos para tablet y móvil */
-       
-                font-size: 1.5rem;
-        
+            font-size: 1.5rem;
         }
-    
+
         @media (max-width: 480px) {
             /* Estilos adicionales para móvil */
-      
-                font-size: 1.2rem;
-        
+            font-size: 1.2rem;
         }
     }
-
 }
