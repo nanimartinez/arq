@@ -15,7 +15,7 @@
 
     .texto-titulo {
         justify-content: center;
-        font-family: 'Orbitron', sans-serif; /* Aplicando la fuente Orbitron para el título */
+        font-family: $fuente-titulo;
         color: $blanco;
     }
 
@@ -26,7 +26,7 @@
         justify-content: center;
 
         label {
-            background-color: $gris-oscuro;
+            background-color: $fondo-traslucido;
             color: $blanco;
             font-size: 1.5rem;
             margin: 5px;

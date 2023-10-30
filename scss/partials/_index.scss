@@ -13,9 +13,9 @@
         font-size: 2rem;
         padding: .25rem;
         color: $blanco;
-        background-color: rgba(19, 14, 9, 0.582);
+        background-color: $fondo-traslucido;
         z-index: 1000;
-        font-family: 'Orbitron', sans-serif; 
+        font-family: $fuente-titulo; 
 
         @media (max-width: 768px) {
             /* Estilos para tablet y móvil */

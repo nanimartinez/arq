@@ -20,9 +20,6 @@
     }  
     .nos {
         background-color: $blanco;
-        font-family: $fuente-cuerpo; /* Aplicando la fuente definida para el cuerpo */
-        color: $gris-oscuro;
-        text-align: justify;
         padding: 30px;
         grid-area: nos;
         position: relative;
@@ -33,19 +30,27 @@
             /* Estilos para móvil */
             padding: 10px;
         }
-        em {
-            font-style: italic;
-        }
-        .enfasis{
+        p{
+            font-family: $fuente-cuerpo; 
+            color: $gris-oscuro;
+            text-align: justify;
+            em {
                 font-style: italic;
-        }    
+            }
+            .enfasis{
+                font-style: italic;
+            } 
+        }
     }
     .img{
         background-color: #EAEAD7;
         grid-area: img;
         img{
+            margin-top: 40px;
+            margin-left: 10px;
+            margin-right: 10px;
             width: 100%;
-            height: 100%;
+            height: 80%;
             @media (max-width: 768px) {
                 width: 100%;
                 height: auto;

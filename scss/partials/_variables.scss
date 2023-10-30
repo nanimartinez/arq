@@ -5,30 +5,26 @@
 $gris-oscuro: #333333;
 $blanco: #FFFFFF;
 $azul-marino: #001F3F;
+$gris-oscuro-traslucido:#33333362;
 
-// Fuentes
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&family=Urbanist:wght@400;600;700;900&display=swap');
 
 // Fondo Principal
 $fondo-body: $blanco;
 
 // Encabezado o Navbar
-$fondo-header: $gris-oscuro;
+$fondo-traslucido: $gris-oscuro-traslucido;
 $texto-header: $blanco;
-$fuente-header: 'Orbitron', sans-serif;
 
-// Botones de navegación
-$color-enlace-nav: $blanco;
-$fuente-enlace-nav: 'Urbanist', sans-serif;
+// Titulos
+$fuente-titulo: 'Orbitron', sans-serif;
 
 // Botones
 $fondo-boton: $azul-marino;
 $texto-boton: $blanco;
 $fondo-boton-hover: $gris-oscuro;
-$fuente-boton: 'Orbitron', sans-serif;
+$fuente-boton: 'Roboto', sans-serif;
 
 // Cuadros de Texto o Tarjetas
-$fondo-card: $gris-oscuro;
 $texto-card: $blanco;
 $sombra-card: 0 4px 8px rgba(0, 0, 0, 0.1);
 $fuente-card: 'Urbanist', sans-serif;
@@ -36,11 +32,8 @@ $fuente-card: 'Urbanist', sans-serif;
 // Pie de Página
 $fondo-pie-pagina: $gris-oscuro;
 $texto-pie-pagina: $blanco;
-$fuente-pie-pagina: 'Urbanist', sans-serif;
 
 // Selección de texto
 $resaltado-texto: $blanco;
 $texto-seleccionado: $azul-marino;
-
-// Fuente para el cuerpo y párrafos
 $fuente-cuerpo: 'Roboto', sans-serif;
