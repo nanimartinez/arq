@@ -37,7 +37,7 @@ body {
 .pie .item-social {
   font-size: 2rem;
   color: #FFFFFF;
-  transition: 0.5s;
+  transition: 0.1s;
 }
 .pie .item-social:hover {
   transform: scale(1.4) rotate(360deg);
@@ -84,16 +84,16 @@ body {
   text-decoration: none;
   text-align: center;
   margin-top: 10px;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.5s ease-in-out;
   font-family: "Roboto", sans-serif;
 }
 .padre_boton .boton:hover {
   background-color: #333333;
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 @media (max-width: 480px) {
   .padre_boton .boton {
-    width: 100%; /* Opcional: ocupar todo el ancho en dispositivos móviles */
+    width: 100%;
   }
 }
 
@@ -302,17 +302,17 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
-  height: 90%;
+  height: 80%;
 }
 .carousel .carousel-inner .carousel-item p {
-  background-color: #333333;
+  background-color: rgba(51, 51, 51, 0.3843137255);
   font-size: 1rem;
   font-weight: 400;
   font-family: "Roboto", sans-serif;
   color: #FFFFFF;
 }
 .carousel .carousel-inner .carousel-item h5 {
-  background-color: #333333;
+  background-color: rgba(51, 51, 51, 0.3843137255);
   font-size: 2rem;
   font-weight: 700;
   font-family: "Orbitron", sans-serif;

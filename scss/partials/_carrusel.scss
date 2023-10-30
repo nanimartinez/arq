@@ -9,11 +9,11 @@
             img {
                 object-fit: cover;
                 width: 100%;
-                height: 90%;
+                height: 80%;
             }
 
             p {
-                background-color: $gris-oscuro;
+                background-color: $fondo-traslucido;
                 font-size: 1rem;
                 font-weight: 400;
                 font-family: $fuente-cuerpo;
@@ -21,7 +21,7 @@
             }
 
             h5 {
-                background-color: $gris-oscuro;
+                background-color: $fondo-traslucido;
                 font-size: 2rem;
                 font-weight: 700;
                 font-family: $fuente-titulo;

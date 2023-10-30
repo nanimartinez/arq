@@ -14,8 +14,6 @@
             align-items: center;
        
     }
-
-
     .boton{
         padding: 10px 20px;
         background-color: $fondo-boton; 
@@ -24,15 +22,15 @@
         text-decoration: none;
         text-align: center;
         margin-top: 10px;
-        transition: background-color 0.3s ease;
+        transition: background-color .5s ease-in-out;
         font-family: $fuente-boton;
             &:hover{
                 background-color: $fondo-boton-hover; 
-                transform: scale(1.05);
+                transform: scale(1.10);
             }
             @media (max-width: 480px) {
           
-                    width: 100%; /* Opcional: ocupar todo el ancho en dispositivos móviles */
+                    width: 100%;
          
             }
     }
